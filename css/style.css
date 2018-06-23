@@ -1,0 +1,79 @@
+body {
+  margin-top: 90px;
+  background: #fcfff5;
+}
+.navbar {
+  background: #fcfff5;
+  opacity: 0.9;
+  box-shadow: 2px 2px 5px #333;
+}
+
+.navlinkCustom {
+  color: #193441;
+  padding-right: 1.4rem;
+}
+
+.navlinkCustom:hover {
+  color: #91aa9d;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url('../img/gare-du-nord.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.carousel-image-2 {
+  background: url('../img/mind-the-gap.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.carousel-image-3 {
+  background: url('../img/telescope.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.dkBlue {
+  background: #193441;
+}
+
+.card-header-color {
+  background: #193441;
+}
+
+.tan {
+  background: #d1dbbd;
+}
+
+.tan-alt {
+  color: #d1dbbd;
+}
+
+#home-icons {
+  border-bottom: 1px solid #193441;
+}
+
+#main-footer {
+  border-top: 1px solid #193441;
+}
+.btn-dkBlue {
+  background: #193441;
+  color: #d1dbbd;
+}
+@media (max-width: 767px) {
+  .navLogo {
+    height: 20px;
+  }
+}
